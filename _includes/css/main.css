@@ -486,3 +486,7 @@ footer .footer-below {
 .publication-list li {
   margin-bottom: 30px; /* Increase space between list items */
 }
+
+#publications h2.text-center {
+  margin-bottom: 40px; /* Space between title and list */
+}
