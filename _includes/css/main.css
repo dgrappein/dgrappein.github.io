@@ -16,14 +16,9 @@ p.small {
     font-size: 16px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
-    color: #{{ site.color.secondary }};
-}
+a {
+      color: blue; /* Normal link color */
+  }
 
 h1,
 h2,
