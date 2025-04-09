@@ -84,14 +84,12 @@ header {
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
-    width: 200px;            /* Reduces the width of the image to 150px */
-    height: auto;            /* Keeps the aspect ratio intact by adjusting height automatically */
 }
 
 header img {
     display: block;
     margin: 0 auto 20px;
-    width: 100px;            /* Reduces the width of the image to 150px */
+    width: 150px;            /* Reduces the width of the image to 150px */
     height: auto;            /* Keeps the aspect ratio intact by adjusting height automatically */
 }
 
