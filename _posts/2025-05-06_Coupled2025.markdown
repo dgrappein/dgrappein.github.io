@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Coupled2025"
 modal-id: 1
 date: 2025-05-06
 img: coupled.png
