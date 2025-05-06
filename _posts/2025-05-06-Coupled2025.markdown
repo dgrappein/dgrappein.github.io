@@ -5,4 +5,6 @@ modal-id: 1
 date: 2025-05-06
 img: portfolio/coupled.png
 alt: image-alt
+excerpt: "Participation to conference."
 ---
+Prova prova
