@@ -1,0 +1,7 @@
+---
+layout: default
+modal-id: 1
+date: 2025-05-06
+img: coupled.png
+alt: image-alt
+---
