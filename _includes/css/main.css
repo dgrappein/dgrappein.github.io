@@ -530,4 +530,48 @@ footer .footer-below {
   margin-bottom: 30px; /* Increase space between list items */
 }
 
+/* Short CV two-column layout */
+.cv-section-title {
+  border-bottom: 2px solid #e7d5bd;
+  padding-bottom: 6px;
+  margin: 35px 0 18px;
+}
+
+.cv-entry {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 18px;
+}
+
+.cv-date {
+  flex: 0 0 140px;
+  font-size: 13px;
+  color: #999;
+  text-align: right;
+  padding-top: 2px;
+}
+
+.cv-content {
+  flex: 1;
+  padding-left: 15px;
+  border-left: 2px solid #e7d5bd;
+}
+
+@media (max-width: 640px) {
+  .cv-entry {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .cv-date {
+    text-align: left;
+    flex: none;
+  }
+  .cv-content {
+    border-left: none;
+    padding-left: 0;
+    border-top: 2px solid #e7d5bd;
+    padding-top: 6px;
+  }
+}
+
 
