@@ -527,7 +527,33 @@ footer .footer-below {
 }
 
 .publication-list li {
-  margin-bottom: 30px; /* Increase space between list items */
+  margin-bottom: 30px;
+}
+
+/* Publications / Preprints entries */
+.pub-entry {
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.pub-entry:last-child {
+  border-bottom: none;
+}
+
+.pub-title {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.pub-authors {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 3px;
+}
+
+.pub-details {
+  font-size: 13px;
+  color: #666;
 }
 
 /* Short CV two-column layout */
